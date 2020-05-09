@@ -1,0 +1,131 @@
+body {
+    background: #f9f9f9;
+}
+.wrapper {
+    width: 1060px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+    border-left: 3px solid rgb(236,236,236);
+    border-right: 3px solid rgb(236,236,236);
+}
+a.logo {
+    display: block;
+    width: 145px;
+    margin-bottom: 30px;
+}
+div.head-menu {
+    background-color: rgb(76,76,76);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+p {
+    font-family: "Open Sans";
+}
+li {
+    list-style-type: none;
+    font-family: "Open Sans";
+}
+.menu li {
+    padding: 20px 40px 20px 40px;
+}
+.menu a {
+    color: white;
+    text-decoration: none; 
+    display: inline-block;
+}
+.menu a:visited {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: white;
+    background-color: rgb(60,60,60);
+}
+.menu li:hover {
+    color: white;
+    background-color: rgb(60,60,60);
+    border-style: 1px solid;
+    border-color: white;
+    
+}
+ul.menu {
+    font-family: "Open Sans";
+    display: flex;
+    
+}
+div.conteiner {
+    margin-top: 35px;
+    display: flex;
+}
+.navigation-menue {
+    width: 200px;
+}
+ul.navigation-menue li {
+    display: flex;
+    text-align: left;
+    border: 2px solid rgb(236,236,236);
+    border-bottom-style: none;
+    width: 200px;
+    height: 35px;
+    list-style: none;
+    align-items: center;
+    padding-left: 20px;
+}
+.navigation-menue li:last-child {
+    border: 2px solid rgb(236,236,236);
+}
+.navigation-menue a {
+    color: rgb(76,76,76);
+    text-decoration: none;
+}
+.navigation-menue a:visited {
+    color: rgb(76,76,76);
+    text-decoration: none;
+}
+.navigation-menue a:hover {
+    color: rgb(39, 39, 39);
+    padding-left: 20px;
+}
+div.main-body {
+   margin-bottom: 20px;
+}
+div.image {
+    border: 2px solid rgb(236,236,236);;
+    padding: 30px 80px 30px 80px;
+    margin-left:89px;
+    margin-bottom: 40px;    
+}
+p.describtion {
+    margin-left: 130px;
+    line-height: 28px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+.footer a {
+    color: rgb(76,76,76);
+    text-decoration: none;
+    padding: 0 60px 0 25px;
+}
+.footer a:visited {
+    color: rgb(76,76,76);
+    text-decoration: none;
+}
+.footer a:hover {
+    color: rgb(76,76,76);
+    background: rgb(236,236,236);
+    text-decoration: underline;
+}
+ul.footer {
+    background-color: rgb(236,236,236);
+    color: rgb(76,76,76);
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+li.copyright {
+    padding-left: 160px;
+}
